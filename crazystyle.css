@@ -1,0 +1,65 @@
+nav{
+ padding-bottom: 5px;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav ul li * {
+ padding-left: 1em;
+ padding-right: 1em;
+ padding-top:5px;
+ padding-bottom:5px;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ border-top: 1px solid black;
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+ }
+
+nav ul li chose {
+ background-color:white;
+ background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png")
+ }
+
+ nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #036;
+  background-image: url("http://img4.cliparto.com/pic/s/257047/5055135-blue-seamless-wavy-background-texture.jpg")}
+
+nav ul li a:hover{
+  color: #fff;
+  background-color: #369;
+}
+
+h1
+{
+  color: White;
+  background-color: Black;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.catpic {
+  border: 5px solid black;
+  width: 250px;
+  padding: 5px;
+  border-radius: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
